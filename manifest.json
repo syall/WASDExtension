@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "WASDExtension",
+  "version": "1.0.0",
+  "description": "WASDExtension is a Chrome Extension that provides vertical scrolling behavior with W/S/Up/Down Keys, and holding the Shift Key doubles the scroll speed.",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "./src/WASDExtension.js"
+      ]
+    }
+  ]
+}
